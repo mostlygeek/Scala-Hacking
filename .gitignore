@@ -1,0 +1,6 @@
+.project
+bin
+
+.cache
+.settings
+.classpath
