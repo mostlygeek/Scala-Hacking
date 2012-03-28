@@ -25,9 +25,7 @@ object P02 extends App {
 	  if (ls.length < n) throw new NoSuchElementException
 	  ls.takeRight(n).head
 	}
-	
-	
+		
 	Console.println( penultimateBuiltin(List(1,2,3,4,5,6)) )
 	Console.println( penultimateRecursive(List(1,2,3,4,5,6)) )
-	
 }

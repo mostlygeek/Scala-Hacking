@@ -7,7 +7,7 @@
 object PO3 extends App{
 	
 	def nthBuiltin[A](n: Int, ls: List[A]) : A =
-	    if (n >= 0) ls(n)
+	    if (n >= 0) ls(n) // = ls.apply(2) || ls apply 2, apply is implicit
 	    else throw new NoSuchElementException
 	    
 	/**
