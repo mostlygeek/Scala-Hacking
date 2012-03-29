@@ -14,6 +14,7 @@ object P07 extends App {
 	  case e  => List(e)								   // 4
 	}
 	
+	
 	/**
 	 * what the heck does the above do? 
 	 * 
@@ -31,12 +32,13 @@ object P07 extends App {
 	 *    
 	 *    - ms is just a reference to the value
 	 *    - "_" is the first parameter passed to this function, in this
-	 *      case the element 
+	 *      case the element
+	 *      
+	 *    
 	 * 
 	 * 4. if it is a value, convert it into List and return it
 	 * 
 	 */
-
 		
 	Console.println("Flatten Example: " + flatten(List(List(1, 1), 2, List(3, List(5, 8)))))
 }
