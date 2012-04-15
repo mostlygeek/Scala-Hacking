@@ -1,6 +1,9 @@
-Working through the 99 Scala problems at:
+Various bits of Scala Hacking / learning doing various things. 
 
-http://aperiodic.net/phil/scala/s-99/
+==========
+Also includes a bunch of random stuff from:
+
+99 Scala problems at: http://aperiodic.net/phil/scala/s-99/
 
 For the most part, just typing out the code and then
 explaining what it does. This is a really effective way of 
