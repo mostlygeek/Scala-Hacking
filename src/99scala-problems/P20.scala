@@ -44,6 +44,5 @@ object P20 extends App {
 	val ls = List('a, 'b, 'c, 'd)
 	val tup = removeAt(1, ls)
 	Console.println("removeAt: " + tup)
-	
 	Console.println("removeAt2: " + removeAt2(1, ls))
 }
