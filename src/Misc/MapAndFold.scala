@@ -5,7 +5,9 @@ package Misc
 object MapAndFold extends App {
     
     val ls = List(1,2,3,4,5)
-    val doubleFn = (x:Int) => x * 2
+	val letters = List("a", "b", "c", "d", "e")
+
+	val doubleFn = (x:Int) => x * 2
     /**
      * map() will iterate over a list and apply the function to each element
      * in the example below, each number is doubled
@@ -19,7 +21,6 @@ object MapAndFold extends App {
 	 * 
 	 * Results: fn( fn( fn(b0, a1), a2), ... aN)
 	 */
-	val letters = List("a", "b", "c", "d", "e")
 	val foldFn = (left:String, right:String) => {
 	    
 	    /**
@@ -55,8 +56,5 @@ object MapAndFold extends App {
 	 * 
 	 * List(1,2,3,4) foldLeft = ( ( (1 + 2) + 3 ) + 4)
 	 * List(1,2,3,4) foldRight = (1 + (2 + (3 + 4) ) )
-	 */
-	
-	
-	
+	 */	
 }
